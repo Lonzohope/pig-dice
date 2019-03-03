@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Desktop-Dice-Pictures.jpg")
+}
+h1{
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: turquoise;
+  font-size: 50px;
+}
+h2{
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: yellow;
+  font-size: 25px;
+
+}
+h3{
+  color:white;
+}
+button{
+  background-color: green;
+  display: block;
+  color: white;
+  margin:auto;
+  border-radius: 40px;
+}
+
+#game{
+  margin-left:350px;
+  text-align: center;
+  border-style: solid;
+  height: ;
+  width: 30%;
+  border-radius: 20px;
+  border-color: black;
+  background-color: grey;
+  font-size: 100%;
+  opacity: 0.8;
+}
