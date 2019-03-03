@@ -1,0 +1,37 @@
+body {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Desktop-Dice-Pictures.jpg")
+}
+h1{
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: turquoise;
+  font-size: 50px;
+}
+h2{
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: yellow;
+  font-size: 25px;
+}
+h3{
+  color:white;
+}
+button{
+  background-color: green;
+  display: block;
+  color: white;
+  margin:auto;
+  border-radius: 40px;
+}
+main p{
+  text-align: center;
+}
+main.col-md-8 {
+  padding: 30px;
+}
+main #score 0, main #score 1 {
+  margin: auto;
+  color: orange;
+  height: 60px;
+  width: 70px;
+}
