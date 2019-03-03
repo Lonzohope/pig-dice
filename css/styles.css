@@ -37,3 +37,10 @@ button{
   font-size: 100%;
   opacity: 0.8;
 }
+#hope{
+  display:none;
+  border-radius: 30px;
+  border-color: black;
+  background-color:red;
+  opacity: 0.8;
+}
