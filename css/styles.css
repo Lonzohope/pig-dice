@@ -26,7 +26,7 @@ button{
 }
 
 #game{
-  margin-left:600px;
+  /* margin-left:600px; */
   text-align: center;
   border-style: solid;
   height: 10em;
@@ -39,13 +39,13 @@ button{
 }
 
 #hope{
-  margin-left: 200px;
+  /* margin-left: 200px; */
   border-radius: 100px;
   border-color: black;
   background-color:white;
   opacity: 0.8;
-  height: 80%;
-  width: 200%;
+  /* height: ; */
+  width: 100%;
   font-size: 100%;
   border-style: solid;
   text-align: center;
@@ -81,11 +81,14 @@ main #score 0, main #score 1 {
 .page {
   margin: 15px;
 }
+.playerTwo{
+  margin-left: 15em;
+}
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  /* width: %; */
 }
 .column {
   display:flex;
@@ -104,4 +107,7 @@ main #score 0, main #score 1 {
   border-style: solid;
   text-align: center;
   display: inline-block;
+}
+.myrow{
+  padding: 20px;
 }
