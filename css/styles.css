@@ -10,7 +10,7 @@ h1{
 h2{
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-  color: yellow;
+  color: orange;
   font-size: 25px;
 
 }
@@ -33,7 +33,7 @@ button{
   width: 10em;
   border-radius: 20px;
   border-color: black;
-  background-color: grey;
+  background-color: white;
   font-size: 100%;
   opacity: 0.8;
 }
@@ -43,7 +43,7 @@ button{
   border-radius: 100px;
   border-color: black;
   background-color:white;
-  opacity: 0.8;
+  opacity: 0.9;
   /* height: ; */
   width: 100%;
   font-size: 100%;
