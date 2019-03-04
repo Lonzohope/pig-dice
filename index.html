@@ -5,7 +5,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href= "css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src=="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
     <title>pig-dice</title>
  </head>
 
@@ -28,7 +28,8 @@
         <br>
         </ol>
 
-        <button>PLAY</button>
+        <button type="button class="btn btn-warning" id="press">PLAY</button>
+
 
 
      <div id="game">
@@ -36,36 +37,44 @@
      <button>EASY</button>
      <br>
      <button>HARD</button>
-
+</div>
    <main>
      <div id="hope">
   <p><a id="newGame" href="#">NEW GAME</a></p>
-     <div class="page">
-       <div class="row">
-         <div class="column">
-           </div>
-     <div id="player 0" class="col-md-6">
+       <div class="row myrow">
+           <div class="col-md-6">
        <h3 id="player label 0"> Player 1 <br> </h3>
        <div id="Score 0">
-         <p>Score <br> </p>
+          <p>Score <br> </p>
+         <div class="dice">
+           <p id="dice1"></p>
+           </div>
+
        </div>
        </div>
-       <div class="col-md-86 text-center">
-       <div class="dice">
-         <p id="dice1"></p>
+       <div class="col-md-6 playerTwo">
+         <h3 id="player label 1"> Player 2 <br> </h3>
+         <div id="Score 1">
+           <p>Score</p>
+           <div class="dice">
+             <p id="dice2"></p>
+             </div>
          </div>
-      <div class="dice">
-        <p id="dice2"></p>
-        </div>
-        <p><a id="roll" href="#">ROLL</a></p>
+       </div>
+     </div>
+     <div class="row">
+
+     </div>
+       <div class="text-center">
+
+
+        <p> <a id="roll" href="#">ROLL</a></p>
         <p><a id="hold" href="#">HOLD</a></p>
         </div>
-        <div id="player 1" class="col-md-6">
-           <div class="col-md-6 text-center">
-            <h3 id="player label 1"> Player 2 <br> </h3>
-            <div id="Score 1">
-              <p>Score</p>
+
+
             </div>
             </main>
+
             </body>
             </html>
