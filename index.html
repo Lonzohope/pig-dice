@@ -4,8 +4,7 @@
    <meta charset="UTF-8"/>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href= "css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+
     <title>pig-dice</title>
  </head>
 
@@ -28,8 +27,8 @@
         <br>
         </ol>
 
-        <button type="button class="btn btn-warning" id="press">PLAY</button>
-
+        <button type="button class="btn btn-warning" id="press1">PLAY</button>
+        <button type="button class="btn btn-warning" id="press2">PLAY</button>
 
 
      <div id="game">
@@ -44,6 +43,11 @@
        <div class="row myrow">
            <div class="col-md-6">
        <h3 id="player label 0"> Player 1 <br> </h3>
+       <h3 id="roll1val"></h3>
+       <h3 id="hit1"></h3>
+       <h3 id="round1"></h3>
+       <h3 id="chance1"></h3>
+       <h3 id="totalscore1"></h3>
        <div id="Score 0">
           <p>Score <br> </p>
          <div class="dice">
@@ -54,6 +58,11 @@
        </div>
        <div class="col-md-6 playerTwo">
          <h3 id="player label 1"> Player 2 <br> </h3>
+         <h3 id="roll2val"></h3>
+         <h3 id="hit2"></h3>
+         <h3 id="round2"></h3>
+         <h3 id="chance1"></h3>
+         <h3 id="totalscore1"></h3>
          <div id="Score 1">
            <p>Score</p>
            <div class="dice">
@@ -68,13 +77,16 @@
        <div class="text-center">
 
 
-        <p> <a id="roll" href="#">ROLL</a></p>
-        <p><a id="hold" href="#">HOLD</a></p>
+        <button id="roll" type="button" name="button">roll</button>
+        <button id="hold1" type="button" name="button">hold</button>
+        <button id="hold2" type="button" name="button">hold</button>
+
         </div>
 
 
             </div>
             </main>
-
+<script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+<script src="js/scripts.js"></script>
             </body>
             </html>
