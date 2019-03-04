@@ -11,10 +11,11 @@
 
 <body>
      <div class="container">
+       <div id="list">
      <h1>PIG DICE</h1>
 
-     <ul>
-        <li>This game involves two players</li>
+     <ol style="list-style:none;">
+        <li>This game involves two players<li>
         <br>
         <li>Each player gets a chance to play</li>
         <br>
@@ -26,8 +27,10 @@
         <br>
         <li>The user can hold the dice and the points would be added to the other scores</li>
         <br>
+        </ol>
+
         <button>PLAY</button>
-     </ul>
+
 
      <div id="game">
      <h2>Choose a level</h2>
@@ -35,17 +38,20 @@
      <br>
      <button>HARD</button>
 
-   <div id="hope">
-<p><a id="newGame" href="#">New Game</a></p>
-
-     <div class="row">
-     <div id="player 0">
-     <div class="col-md-5 text-center">
-       <h3 id="player label 0"> Player 1</h3>
+   <main>
+     <div id="hope">
+  <p><a id="newGame" href="#">NEW GAME</a></p>
+     <div class="page">
+       <div class="row">
+         <div class="column">
+           </div>
+     <div id="player 0" class="col-md-6">
+       <h3 id="player label 0"> Player 1 <br> </h3>
        <div id="Score 0">
-         <p>Score</p>
+         <p>Score <br> </p>
        </div>
        </div>
+       <div class="col-md-86 text-center">
        <div class="dice">
          <p id="dice1"></p>
          </div>
@@ -55,12 +61,12 @@
         <p><a id="roll" href="#">ROLL</a></p>
         <p><a id="hold" href="#">HOLD</a></p>
         </div>
-        <div id="player 1">
-          <div class="col-md-5 text-center">
-            <h3 id="player label 1"> Player 2</h3>
-            <div id="Score 0">
+        <div id="player 1" class="col-md-6">
+           <div class="col-md-6 text-center">
+            <h3 id="player label 1"> Player 2 <br> </h3>
+            <div id="Score 1">
               <p>Score</p>
             </div>
-            </div>
+            </main>
             </body>
             </html>
