@@ -1,92 +1,102 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <meta charset="UTF-8"/>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href= "css/styles.css" rel="stylesheet" type="text/css">
 
-    <title>pig-dice</title>
- </head>
+<head>
+  <meta charset="UTF-8" />
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+  <title>pig-dice</title>
+</head>
 
 <body>
-     <div class="container">
-       <div id="list">
-         <h1>PIG DICE</h1>
-     <ol style="list-style:none;">
-        <li>This game involves two players<li>
-        <br>
-        <li>Each player gets a chance to play</li>
-        <br>
-        <li>In each round the player can see their scores</li>
-        <br>
-        <li>If the dice rolls on 1 the player loses</li>
-        <br>
-        <li>The first to score 100 points is the winner</li>
-        <br>
-        <li>The user can hold the dice and the points would be added to the other scores</li>
-        <br>
+  <div class="container">
+    <h1>PIG DICE</h1>
+    <div id="list">
+      <h3 id="rules">Rules</h3>
+      <div id="list1">
+        <ol style="list-style:none;">
+          <li>This game involves two players
+          <li>
+            <br>
+          <li>Each player gets a chance to play</li>
+          <br>
+          <li>In each round the player can see their scores</li>
+          <br>
+          <li>If the dice rolls on 1 the player loses</li>
+          <br>
+          <li>The first to score 100 points is the winner</li>
+          <br>
+          <li>The user can hold the dice and the points would be added to the other scores</li>
+          <br>
+          <li>For the first player click on the first play button</li>
+          <br>
+          <li>For the second player click on the second play button</li>
+          <br>
+          <li>For the first player to hold click on the first hold button</li>
+          <br>
+          <li>For the second player to hold click on the second hold button</li>
+          <br>
         </ol>
+      </div>
+    </div>
 
-        <button type="button class="btn btn-warning" id="press1">PLAY</button>
-        <button type="button class="btn btn-warning" id="press2">PLAY</button>
-
-
-     <div id="game">
-     <h2>Choose a level</h2>
-     <button>EASY</button>
-     <br>
-     <button>HARD</button>
-</div>
-   <main>
-     <div id="hope">
-  <p><a id="newGame" href="#">NEW GAME</a></p>
-       <div class="row myrow">
-           <div class="col-md-6">
-       <h3 id="player label 0"> Player 1 <br> </h3>
-       <h3 id="roll1val"></h3>
-       <h3 id="hit1"></h3>
-       <h3 id="round1"></h3>
-       <h3 id="chance1"></h3>
-       <h3 id="totalscore1"></h3>
-       <div id="Score 0">
-          <p>Score <br> </p>
-         <div class="dice">
-           <p id="dice1"></p>
-           </div>
-
-       </div>
-       </div>
-       <div class="col-md-6 playerTwo">
-         <h3 id="player label 1"> Player 2 <br> </h3>
-         <h3 id="roll2val"></h3>
-         <h3 id="hit2"></h3>
-         <h3 id="round2"></h3>
-         <h3 id="chance1"></h3>
-         <h3 id="totalscore1"></h3>
-         <div id="Score 1">
-           <p>Score</p>
-           <div class="dice">
-             <p id="dice2"></p>
-             </div>
-         </div>
-       </div>
-     </div>
-     <div class="row">
-
-     </div>
-       <div class="text-center">
+    <button id="press1" class="btn btn-warning">Roll Player1</button>
+    <button id="press2" class="btn btn-warning">Roll Player2</button>
 
 
-        <button id="roll" type="button" name="button">roll</button>
-        <button id="hold1" type="button" name="button">hold</button>
-        <button id="hold2" type="button" name="button">hold</button>
+    <main>
+      <div id="hope">
+        <p><a id="newGame" href="index.html">NEW GAME</a></p>
+        <div class="row myrow">
+          <div class="col-md-6">
+            <h3 id="player label 0"> Player 1 <br> </h3>
+            <h3 id="roll1val"></h3>
+            <h3 id="hit1"></h3>
+            <h3 id="round1"></h3>
+            <h3 id="chance1"></h3>
+            <h3 id="totalscore1"></h3>
+            <div id="Score 0">
+              <p>Score <br> </p>
+              <div class="dice">
+                <p id="dice1"></p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6 playerTwo">
+            <h3 id="player label 1"> Player 2 <br> </h3>
+            <h3 id="roll2val"></h3>
+            <h3 id="hit2"></h3>
+            <h3 id="round2"></h3>
+            <h3 id="chance1"></h3>
+            <h3 id="totalscore1"></h3>
+            <div id="Score 1">
+              <p>Score</p>
+              <div class="dice">
+                <p id="dice2"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="text-center">
+
+
+
+          <button id="hold1" type="button" name="button">hold Player1</button>
+          <button id="hold2" type="button" name="button">hold Player2</button>
 
         </div>
 
 
-            </div>
-            </main>
-<script src="js/jquery-3.3.1.js" charset="utf-8"></script>
-<script src="js/scripts.js"></script>
-            </body>
-            </html>
+      </div>
+    </main>
+  </div>
+  <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
