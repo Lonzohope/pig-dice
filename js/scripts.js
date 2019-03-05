@@ -4,7 +4,7 @@
 // turnScore is the total amount of points added from several rolls of the dice
 // rollScore is just one roll of the dice
 // score refers to total score
-var dice2 = Math.floor(Math.random() * 7);
+var dice2 = Math.floor(Math.random() * 6);
 var maximumscore=100;
 var round1=0;
 var round2=0;
@@ -12,7 +12,18 @@ var playerScore1=0;
 var playerScore2=0;
 var hold1="";
 var hold2="";
+
 $(document).ready(function() {
+
+  //hide my Game Rules first
+  $('#list1').hide();
+
+  //show game rules onclick
+  $('#rules').click(function() {
+    $('#list1').fadeToggle(100);
+  });
+
+
   $("#press1").click(function(){
     player1();
   })
@@ -26,9 +37,6 @@ $(document).ready(function() {
     return hold2=true
   })
 })
-
-
-
 
 function player1(){
   var dice1 = Math.floor(Math.random() * 7);
