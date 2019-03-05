@@ -9,17 +9,13 @@ This game involves two players and each player gets a chance to play when the ot
 ## BDD
 
 
-\begin{table}[]
-\begin{tabular}{lll}
-GENERAL BEHAVIOUR                                                                                          & INPUT                                                                       & \multicolumn{1}{c}{OUTPUT}                                          \\
-This game involves two players.                                                                            & If player 1 rolls a one they lose the game.                                 & Player 2 gets a chance to play.                                     \\
-Each player has a chance to play when the other player has lost.                                           & If player 1 holds the dice the points will be added to their current score. & Player 2 gets a chance to play and if they roll a 1 player 1 plays. \\
-The first one to score 100 points wins the game.                                                           & If player one scores 100 points they win.                                   & Player 2 is the loser.                                              \\
-The player has an option of holding the dice.                                                              &                                                                             &                                                                     \\
-The points the player scores when they roll the dice will be added to the points they have when they hold. &                                                                             &                                                                    
-\end{tabular}
-\end{table}
-
+| GENERAL BEHAVIOUR                                                                                          	| INPUT                                                                       	| OUTPUT                                                             	|
+|------------------------------------------------------------------------------------------------------------	|-----------------------------------------------------------------------------	|--------------------------------------------------------------------	|
+| This game involves two players.                                                                            	| If player 1 rolls a one they lose the game.                                 	| Player 2 gets a chance to play.                                    	|
+| Each player has a chance to play when the other player has lost.                                           	| If player 1 holds the dice the points will be added to their current score. 	| Player 2 gets a chance to play and if they roll a 1 player 1 plays 	|
+| The first one to score 100 points wins the game.                                                           	| If player one scores 100 points they win.                                   	| Player 2 is the loser.                                             	|
+| The player has an option of holding the dice.                                                              	|                                                                             	|                                                                    	|
+| The points the player scores when they roll the dice will be added to the points they have when they hold. 	|                                                                             	|                                                                    	|
 ## Setup/Installation Requirements
 
 * Open your browser.
